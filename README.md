@@ -22,6 +22,6 @@
   10. Restaurant Picker
  
 
-*Reviewer's Name*: 
+*Reviewer's Name*: Kassandra Spacek
 
-*Peer Review*: 
+*Peer Review*: Almost everything works. The MadLibs controller is throwing back an error at me. I would also sugest you add validation to the add two numbers. Other then that everything looks and works well. GoodJob!
