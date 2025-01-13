@@ -11,7 +11,7 @@ namespace AllForOneAPI.Services
             if (numericNum1 && numericNum2)
                 return $"The Sum of {parsedNum1} and {parsedNum2} is {parsedNum1 + parsedNum2}.";
             
-            return $"error '{num1}' and '{num2}' are not valid integers";
+            return $"error '{num1}' or '{num2}' are not a valid integer";
         }
     }
 }
