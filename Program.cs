@@ -10,6 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<Add2NumbersServices>();
 builder.Services.AddScoped<AskingQuestionsServices>();
+builder.Services.AddScoped<GreaterOrLessServices>();
 builder.Services.AddScoped<GuessItServices>();
 builder.Services.AddScoped<MadLibServices>();
 builder.Services.AddScoped<Magic8BallServices>();
