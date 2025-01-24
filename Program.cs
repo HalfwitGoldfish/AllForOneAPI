@@ -19,8 +19,6 @@ builder.Services.AddScoped<ReverseItAlphanumericServices>();
 builder.Services.AddScoped<ReverseItNumericServices>();
 builder.Services.AddScoped<SayHelloServices>();
 
-var app = builder.Build();
-
 builder.Services.AddCors( options =>
 {
     options.AddPolicy( "AllowAll",
@@ -31,6 +29,8 @@ builder.Services.AddCors( options =>
               .AllowAnyHeader();
     });
 });
+
+var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
