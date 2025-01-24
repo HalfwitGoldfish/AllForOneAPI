@@ -4,9 +4,9 @@ namespace AllForOneAPI.Services
 {
     public class MadLibServices
     {
-        public string MadLib(MadLibModel madLibModel)
+        public string MadLib( string animal, string name, string food, string toy, string age, string animal2, string name2, string food2, string toy2, string age2 )
         {
-            return $"I have a {madLibModel.animal} Their name is {madLibModel.name} they like to eat {madLibModel.food}, and play with {madLibModel.toy}, they are {madLibModel.age} year(s) old, they have a friend who is a {madLibModel.animal2}, they're named {madLibModel.name2}, who likes to eat {madLibModel.food2}, and play with {madLibModel.toy2}, they are {madLibModel.age2} year(s) old.";
+            return $"I have a {animal} Their name is {name} they like to eat {food}, and play with {toy}, they are {age} year(s) old, they have a friend who is a {animal2}, they're named {name2}, who likes to eat {food2}, and play with {toy2}, they are {age2} year(s) old.";
         }
     }
 }
