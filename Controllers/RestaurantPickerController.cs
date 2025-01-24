@@ -14,7 +14,7 @@ namespace AllForOneAPI.Controllers
         }
 
         [HttpGet]
-        [Route("RestaurantPicker/{type}")] 
+        [Route("RestaurantPicker/{type}")]
         public string RestaurantPicker(string type)
         {
             return _restaurantPickerServices.RestaurantPicker(type);

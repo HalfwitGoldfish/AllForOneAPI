@@ -16,9 +16,9 @@ namespace AllForOneAPI.Controllers
 
         [HttpGet]
         [Route("MadLib")]
-        public MadLibModel MadLib(MadLibModel madLibModel)
+        public string MadLib(MadLibModel madLibModel)
         {
-            return madLibModel;
+            return _madLibServices.MadLib( madLibModel );
         }
     }
 }
