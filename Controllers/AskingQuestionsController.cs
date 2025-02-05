@@ -16,7 +16,7 @@ namespace AllForOneAPI.Controllers
 
         [HttpGet]
         [Route("NameAndTime/{name}/{time}")]
-        public string NameAndTime(string name, int time)
+        public string NameAndTime(string name, string time)
         {
             return _askingQuestionsServices.NameAndTime(name, time);
         }

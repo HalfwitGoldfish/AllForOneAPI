@@ -18,7 +18,7 @@ namespace AllForOneAPI.Services
                 }else{
                     return $"{parsed1} is equal to {parsed2}";
                 }
-            }else
+            }
             return $"either {num1} or {num2} is not a valid integer";
         }
     }
