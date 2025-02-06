@@ -12,9 +12,9 @@ namespace AllForOneAPI.Services
             if ( numeric && numeric2 )
             {
                 if(parsed1 < parsed2){
-                    return $"{parsed1} is less than {parsed2}\n{parsed2} is greater than {parsed1}";
+                    return $"{parsed1} is less than {parsed2} : {parsed2} is greater than {parsed1}";
                 }else if(parsed1 > parsed2){
-                    return $"{parsed1} is greater than {parsed2}\n{parsed2} is less than {parsed1}";
+                    return $"{parsed1} is greater than {parsed2} : {parsed2} is less than {parsed1}";
                 }else{
                     return $"{parsed1} is equal to {parsed2}";
                 }
